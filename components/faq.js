@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
-import 'react-accessible-accordion/dist/fancy-example.css';
+ 
 
 class Faq extends Component {
   componentDidMount() {
@@ -24,72 +17,83 @@ class Faq extends Component {
   }
   render() {
     return (
-      <>
-        <section id="faq">
-          <div className="container">
-            <div className="row justify-content-center">
-            <div className="col-lg-6">
-            <div className="tg-section-title mb-4 text-center">
-                <span className="sub-title">PERTANYAAN DARI PELANGGAN</span>
-                <h2 className="title">FAQ  tentang produk shampoo Cultusia</h2>
-              </div>
-            </div>
-            </div>
-            <div className="col-lg-12 col-md-10">
+      <> 
+        <section class="micro-service-section">
+            <div class="container">
               
-              <Accordion>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Apa itu shampoo Cultusia?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Shampoo Cultusia adalah produk perawatan rambut yang dirancang untuk membersihkan dan merawat rambut Anda. Formula uniknya dirancang untuk berbagai jenis rambut dan masalah rambut.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Apa yang membuat shampoo Cultusia berbeda dari produk lain?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Cultusia menggunakan campuran bahan alami dan bahan perawatan rambut canggih untuk memberikan hasil yang optimal. Formula kami dirancang untuk memperbaiki dan memperkuat rambut sambil menjaga keseimbangan kelembapan alami.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Apakah shampoo Cultusia aman untuk digunakan setiap hari?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Iya, shampoo Cultusia diformulasikan dengan bahan yang lembut dan aman untuk penggunaan sehari-hari. Namun, tergantung pada jenis rambut Anda, penggunaan setiap hari mungkin tidak selalu diperlukan. Penggunaan beberapa kali seminggu mungkin sudah cukup.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Apakah shampoo Cultusia cocok untuk jenis rambut tertentu?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Ya, shampoo Cultusia dirancang untuk berbagai jenis rambut, termasuk rambut kering, rambut berminyak, dan rambut yang rusak. Kami memiliki berbagai varian yang dirancang khusus untuk berbagai masalah rambut.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
+               
+                <div class="row">
+                    <div class="col-md-12"><div class="sec-divider"></div></div>
+                </div>
+                <div class="row">
+                 
+                    <div class="col-lg-12 col-md-12">
+                        <h4 class="bp-heading">PERTANYAAN YANG SERING DITANYAKAN</h4>
+                        <div id="accordion">
+                            <div class="singleFaq">
+                                <div class="card-header" id="faq_1">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#accordion_1" aria-expanded="true" aria-controls="accordion_1">
+                                        Apakah Zudaifu cocok untuk semua jenis kulit?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="accordion_1" class="collapse show" aria-labelledby="faq_1" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>
+                                        Gatal pada kulit adalah masalah yang umum dialami oleh banyak orang. Berbagai obat gatal tersedia di pasaran, dan pilihan obat tergantung pada penyebab gatal tersebut. Gatal dapat disebabkan oleh berbagai faktor, seperti gigitan serangga, reaksi alergi, atau infeksi bakteri.
+
+                                        </p>
+                                      <p>
+                                        
+Kulit dapat menjadi gatal karena berbagai kondisi yang berbeda. Beberapa contoh termasuk infeksi jamur, kudis, dan masalah kulit lainnya. Selain sensasi gatal yang mengganggu, kondisi ini juga sering disertai dengan gejala lain, seperti munculnya ruam merah di kulit, pembentukan bentol, atau bahkan kulit yang kering.
+                                      </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="singleFaq">
+                                <div class="card-header" id="faq_2">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#accordion_2" aria-expanded="false" aria-controls="accordion_2">
+                                        Apakah Zudaifu aman untuk digunakan selama kehamilan atau menyusui?
+
+
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="accordion_2" class="collapse" aria-labelledby="faq_2" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>
+                                        Penggunaan ketoconazole pada kehamilan dikategorikan oleh FDA sebagai kategori C. Penggunaannya pada ibu menyusui tidak disarankan.
+                                        </p>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="singleFaq">
+                                <div class="card-header" id="faq_3">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#accordion_3" aria-expanded="false" aria-controls="accordion_3">
+                                        Apakah Zudaifu tersedia dalam berbagai varian atau formula?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="accordion_3" class="collapse" aria-labelledby="faq_3" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>
+                                          Hanya tersedia dalam kemasan botol
+                                        </p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                      
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
+    
       </>
     );
   }

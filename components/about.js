@@ -3,107 +3,53 @@ class About extends Component {
   render() {
     return (
       <>
-        <section id="ingredient" className="tg-supplement-area pt-130 pb-120">
-          <div className="fp-shapes-wrap">
-            <div className="fp-shape-one">
-              <img
-                src="/img/asset/f_img1.png"
-                alt="shape"
-                className="paroller"
-              />
-            </div>
-            <div className="fp-shape-two">
-              <img
-                src="/img/asset/f_img2.png"
-                alt="shape"
-                className="paroller"
-              />
-            </div>
-          </div>
-          <div className="fp-circle one"></div>
-          <div className="tg-supplement-bg"></div>
-          <div className="container">
-            <div className="tg-supplement-inner">
-              <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-8 order-2 order-lg-1 position-relative">
-                  <div
-                    className="tg-supplement-img text-end  wow fadeInRight"
-                    data-wow-delay=".2s"
-                  >
-                    <img src="/img/asset/dg.webp" alt="produk" />
-                  </div>
-                  <div className="tg-supplement-shape">
-                    <img
-                      src="/img/asset/r_shape.png"
-                      alt=""
-                      className="rotateme"
-                    />
-                  </div>
-                </div>
-                <div className="col-lg-6 order-1 order-lg-2 text-center text-lg-start align-items-center justify-content-center d-flex">
-                  <div
-                    className="tg-supplement-content mt-60 wow fadeInLeft"
-                    data-wow-delay=".2s"
-                  >
-                    <div className="tg-section-title mb-4">
-                      <span className="sub-title">
-                        KELEBIHAN PRODUK CULTUSIA
-                      </span>
-                      <h2 className="title">
-                        Bebas Pengunaan Bahan Bahan Berbahaya
-                      </h2>
+                <section className="feature-section-3">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-7 text-center ">
+                        <div className="sub-title sub-color-2">Keunggulan salep zudaifu</div>
+                        <h2 className="sec-title">
+                           Beberapa Khasiat Pemakaian Salep Secara Rutin
+                        </h2>
                     </div>
-                    <p>
-                      Produk ini didesain dengan menghindari penggunaan amonia
-                      dan bahan kimia berbahaya lainnya yang sering terkandung
-                      dalam pewarna rambut konvensional. Ini membantu menjaga
-                      kesehatan rambut dan kulit kepala.
-                    </p>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="tg-supplement-inner mt-5">
-              <div className="row justify-content-center">
-                <div className="col-lg-6 order-1 order-lg-1 text-center text-lg-start align-items-center justify-content-center d-flex">
-                  <div
-                    className="tg-supplement-content mt-60 wow fadeInLeft"
-                    data-wow-delay=".2s"
-                  >
-                    <div className="tg-section-title mb-4">
-                      <span className="sub-title">FOKUS PRODUK CULTUSIA</span>
-                      <h2 className="title">
-                        Formula Perawatan Rambut Terbaik
-                      </h2>
+                <div className="row">
+                    <div className="col-lg-4 col-md-6">
+                        <div className="feaure-item-3">
+                            <div className="f-thumb">
+                                <img src="/img/asset/2a.png" alt="" />
+                            </div>
+                            <h4><a href="single-service.html"> Masalah Kulit Kronis</a></h4>
+                            <p>
+                            Produk ini sering dipasarkan sebagai solusi untuk masalah kulit kronis seperti eksim dan psoriasis.
+                            </p>
+                        </div>
                     </div>
-                    <p>
-                      Shampoo Cultusia Pewarna Rambut tidak hanya memberikan
-                      warna, tetapi juga mengandung nutrisi yang membantu
-                      merawat rambut. Ini bisa termasuk vitamin, protein, dan
-                      bahan alami lainnya yang membantu menjaga kelembapan,
-                      kekuatan, dan keindahan rambut.
-                    </p>
-                  </div>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="feaure-item-3">
+                            <div className="f-thumb">
+                            <img src="/img/asset/3a.png" alt="" />
+                            </div>
+                            <h4><a href="single-service.html">Mengurangi Peradangan</a></h4>
+                            <p>
+                            Krim ini diklaim memiliki sifat anti-inflamasi yang dapat membantu meredakan peradangan pada kulit. 
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                        <div className="feaure-item-3">
+                            <div className="f-thumb">
+                            <img src="/img/asset/1a.png" alt="" />
+                            </div>
+                            <h4><a href="single-service.html">Mengurangi Gatal-Gatal</a></h4>
+                            <p>
+                            Produk ini sering diiklankan sebagai krim yang dapat membantu mengurangi rasa gatal pada kulit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-lg-6 col-md-8 order-2 order-lg-2 position-relative">
-                  <div
-                    className="tg-supplement-img text-end  wow fadeInRight"
-                    data-wow-delay=".2s"
-                  >
-                    <img src="/img/produk/pro1.webp" alt="produk" />
-                  </div>
-                  <div className="tg-supplement-shape">
-                    <img
-                      src="/img/asset/r_shape.png"
-                      alt=""
-                      className="rotateme"
-                    />
-                  </div>
-                </div>
-              </div>
+           
             </div>
-          </div>
-          <div className="fp-circle four"></div>
         </section>
       </>
     );

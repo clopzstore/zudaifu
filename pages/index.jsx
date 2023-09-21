@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import dynamic from 'next/dynamic';
 import { NextSeo } from "next-seo";
-import { ParallaxProvider } from 'react-scroll-parallax';
 const Headcom = dynamic(() => import('../components/header'), {
   loading: () => <div className="load-wraper">
     <div className="activity"></div>
@@ -75,18 +74,11 @@ const Foot = dynamic(() => import('../components/footer'), {
             }}
           />
           <Headcom />
-          <main>
-            <ParallaxProvider>
-            <Herosection />
-            </ParallaxProvider>
-            <Aboutsection />
-            <Videosection />
-            <Faqsection />
-            <ParallaxProvider>
-            <Testisection />
-            </ParallaxProvider>          
-          </main> 
-          <Foot />
+          <main> 
+            <Herosection />    
+            <Aboutsection/>
+            <Faqsection/>
+          </main>  
         </>
       );
     };
