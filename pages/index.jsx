@@ -78,7 +78,9 @@ const Foot = dynamic(() => import('../components/footer'), {
             <Herosection />    
             <Aboutsection/>
             <Faqsection/>
+          
           </main>  
+          <Foot/>
         </>
       );
     };

@@ -9393,3 +9393,6 @@ blockquote span{
 }
 
 
+.copyright-wrap img {
+    width: 100px;
+}

@@ -9,9 +9,9 @@ class Footer extends Component {
                 <div className="container">
                     <div className="row  justify-content-center">
                         <div className="col-md-5 text-center">
-                          <img src="/img/asset/logo.png" className="logobottom" alt="logo" />
+                          <img src="/img/asset/logo.png" className="logobottom mb-4" alt="logo" />
                             <div className="copyright-text">
-                                <p>©2023 clopz store | cultusia. Hak brand dagang di miliki oleh perusahaan pembuat produk terkait.
+                                <p>©2023 clopz store | zudaifu. Hak brand dagang di miliki oleh perusahaan pembuat produk terkait.
 </p>
                             </div>
                         </div>

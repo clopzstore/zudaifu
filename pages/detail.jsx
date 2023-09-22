@@ -38,7 +38,7 @@ const Faqsection = dynamic(() => import('../components/faq'), {
   </div>,
   ssr: false,
 }); 
-const Testisection = dynamic(() => import('../components/testimoni'), {
+const Detail = dynamic(() => import('../components/detail'), {
   loading: () => <div className="load-wraper">
     <div className="activity"></div>
   </div>,
@@ -75,8 +75,9 @@ const Foot = dynamic(() => import('../components/footer'), {
           />
           <Headcom />
           <main> 
-            <Herosection />    
+          <Detail />   
           </main>  
+          <Foot />    
         </>
       );
     };
