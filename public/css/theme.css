@@ -3,6 +3,9 @@
 / 1. Home 01
 /------------------------------------------------------*/
 /*----   Header Topbar ------*/
+body {
+    background: #fff;
+}
 .topbar-1{
     position: absolute;
     width: 100%;
@@ -9391,7 +9394,9 @@ blockquote span{
     box-shadow: none;
     margin: 40px 0 0;
 }
-
+a.popup-image img {
+    width: 100%;
+}
 
 .copyright-wrap img {
     width: 100px;
