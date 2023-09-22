@@ -55,6 +55,7 @@ class Detail extends Component {
                           },
                         }}
                       >
+                        
                         <a 
                     href="/img/asset/3.jpeg"
                     data-fancybox
